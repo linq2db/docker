@@ -37,6 +37,7 @@ Build-MSSQL-Windows 'win-mssql' '2016' '130' $Share $User $Pass 'C:\Windows\asse
 Build-MSSQL-Windows 'win-mssql' '2017' '140' $Share $User $Pass 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\' 'windows/servercore:ltsc2022-amd64'
 Build-MSSQL-Windows 'win-mssql' '2019' '150' $Share $User $Pass 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\' 'windows/servercore:ltsc2022-amd64'
 Build-MSSQL-Windows 'win-mssql' '2022' '160' $Share $User $Pass 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\' 'windows/servercore:ltsc2022-amd64'
+Build-MSSQL-Windows 'win-mssql' '2025' '170' $Share $User $Pass 'C:\Windows\Microsoft.Net\assembly\GAC_MSIL\' 'windows/servercore:ltsc2025'
 
 Remove-SmbShare -Name Installs -Force
 
