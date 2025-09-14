@@ -10,10 +10,10 @@ COPY context/init.sql /setup
 
 RUN set -x \
  && apt update \
- && apt install libaio1t64 -y \
+ && apt install libaio1t64 libnsl2 -y \
  && ln -s /usr/lib/x86_64-linux-gnu/libaio.so.1t64 /usr/lib/x86_64-linux-gnu/libaio.so.1 \
  && /setup/ase/setup.bin -f /setup/sybase-response.txt -i silent -DAGREE_TO_SAP_LICENSE=true -DRUN_SILENT=true \
- && cp /setup/sybase-ase.rs /opt/sap/ASE-16_0/sybase-ase.rs \
+ && cp /setup/sybase-ase.rs /opt/sap/ASE-16_1/sybase-ase.rs \
  && cp /setup/interfaces /opt/sap/interfaces1 \
  && cp /setup/entrypoint.sh /usr/local/bin/ \
  && cp /setup/init.sql /opt/sap/ \
