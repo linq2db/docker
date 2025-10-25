@@ -1,3 +1,5 @@
+General information: https://sqlserverbuilds.blogspot.com/
+
 MSSQL 2005
 EXPR_ADV_WITH_SP4: https://www.catalog.update.microsoft.com/Search.aspx?q=KB2463332%20Advanced
 
@@ -16,17 +18,16 @@ SP3_CU: https://www.catalog.update.microsoft.com/Search.aspx?q=kb5029185
 
 MSSQL 2016
 EXPR_ADV_WITH_SP3: https://www.microsoft.com/en-us/download/details.aspx?id=103447
-SP3_GDR: https://www.catalog.update.microsoft.com/Search.aspx?q=kb5029186
+SP3_CU: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5065227
 
 MSSQL 2017
 EXPR_ADV: https://www.microsoft.com/en-us/download/details.aspx?id=55994
-CU_31: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5016884
-GDR: https://www.catalog.update.microsoft.com/Search.aspx?q=kb5029376
+CU_31: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5065225
 
 MSSQL 2019
 EXPR_ADV: https://www.microsoft.com/en-us/download/details.aspx?id=101064
-CU_23: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5030333
+CU_32: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5065222
 
 MSSQL 2022
 EXPR_ADV: https://www.microsoft.com/en-us/download/details.aspx?id=104781
-CU_10: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5031778
+CU_21: https://www.catalog.update.microsoft.com/Search.aspx?q=KB5065865

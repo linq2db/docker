@@ -1,7 +1,7 @@
 ARG FROM
 FROM mcr.microsoft.com/$FROM
 
-ARG VERSION VERSION2 SHARE_PATH SHARE_USER SHARE_PASS GAC
+ARG VERSION VERSION2 SHARE_PATH SHARE_USER SHARE_PASS GAC START_SCRIPT
 
 # patches: https://github.com/microsoft/mssql-docker/issues/540
 RUN net use x: "%SHARE_PATH%" /user:"%SHARE_USER%" "%SHARE_PASS%" \
@@ -11,7 +11,7 @@ RUN net use x: "%SHARE_PATH%" /user:"%SHARE_USER%" "%SHARE_PASS%" \
 && rmdir "c:\Windows\Installer" /q /s \
 && rmdir "c:\Windows\SoftwareDistribution\Download" /q /s
 
-COPY start.ps1 /
+COPY ${START_SCRIPT} /start.ps1
 
 ENV ACCEPT_EULA=_ MSSQL_SA_PASSWORD=_
 
